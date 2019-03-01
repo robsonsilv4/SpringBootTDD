@@ -1,7 +1,6 @@
 package com.robson.sbtdd.model;
 
 public class Endereco {
-
     private Long codigo;
     private String logradouro;
     private Integer numero;

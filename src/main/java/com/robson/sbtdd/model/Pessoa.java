@@ -3,7 +3,6 @@ package com.robson.sbtdd.model;
 import java.util.List;
 
 public class Pessoa {
-
     private Long codigo;
     private String nome;
     private String cpf;
@@ -62,6 +61,6 @@ public class Pessoa {
 
     @Override
     public int hashCode() {
-        return codigo.hashCode();
+        return getCodigo() != null ? getCodigo().hashCode() : 0;
     }
 }
